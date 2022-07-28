@@ -124,6 +124,7 @@ ul>li>a{
     padding:50px;
     border-radius:20px
 }
+
 .section2>.box1>div:first-child{
     background-color:#faeae9
 }
@@ -132,8 +133,37 @@ ul>li>a{
 }
 .section2>.box2{
     display: flex;
-    border: 1px solid black;
-    width: 70%;
-    margin:auto;
-    margin-top:50px;
+    gap: 15px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+  
+}
+.section2>.box2>div{
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align:center;
+    /* padding:30px; */
+    border-radius:20px;
+    
+}
+.section2>.box2>div>p{
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    line-height: 1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 20px
+ 
+ }
+
+ .section2>.box2>div:first-child{
+    background-color:#eeeef9
+}
+ .section2>.box2>div+div{
+    background-color:#fdf4ea
+}
+ .section2>.box2>div+div+div{
+    background-color:#e6f3e0
 }
