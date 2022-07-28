@@ -167,3 +167,140 @@ ul>li>a{
  .section2>.box2>div+div+div{
     background-color:#e6f3e0
 }
+/* carousel height, as percentage of width */
+.carousel {
+  height: 300px;
+  margin-top: 30px;
+}
+
+.carousel-cell {
+  width: 25%;
+  height: 300px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  text-align: center;
+  /* border: 1px solid black; */
+  display: grid;
+  justify-content: space-around;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.carousel-cell>img{
+  width: 100%;
+  padding: 20px;
+}
+.carousel-cell>img+p{
+  margin-top:-25px;
+}
+.carousel-cell>p+p{
+  margin-top:-25px;
+}
+.carousel-cell>p:first-child{
+  color: #ffc392;
+  margin-top:10px;
+}
+
+
+.section4{
+  width: 70%;
+  margin: auto;
+}
+
+.section4>h2{
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+.section5{
+    width: 70%;
+    margin: auto;
+    margin-top:50px;
+}
+
+
+.section5>.container>img{
+    width: 100%
+}
+
+
+.section6{
+    width: 70%;
+    margin: auto;
+  }
+
+  .section6>h2{
+    text-align: center;
+    margin: 50px 0;
+  }
+
+.section7{
+width: 70%;
+margin: auto;
+margin-top:80px;
+}
+.section7>.container{
+    display:flex;
+    justify-content:space-between;
+}
+.section7>.container>img{
+    width: 100%;
+}
+
+
+.section8>.container{
+    width: 50%;
+    margin: auto;
+    margin-top:80px;
+    text-align: center;
+    display: grid;
+    justify-content:space-around;
+    /* border: 1px solid black; */
+    height: 100%;
+  
+    }
+    .section8>.container>p:first-child{
+        color:  #7c97f8 ;
+        margin-top:30px;
+        font-size:32px
+    }
+    .section8>.container>p+p{
+        width: 70%;
+        margin: auto;
+        font-size:15px;
+        /* border: 1px solid black */
+
+    }
+    .section8{
+        background-color:#e0dfff;
+        height:300px
+    }
+    .section8>.container>input{
+        /* margin: 60px; */
+        margin: 50px 20px;
+        border: 1px solid  #7c97f8 ;
+        background-color:transparent;
+        text-align: center;
+        
+
+    }
+    .section8>.container>button{
+        width: 100px;
+        margin: auto;
+        margin-top:-30px;
+        border: none;
+        padding: 10px 25px;
+        background-color:#505af0;
+        color: white;
+        border-radius:20px
+    }
+
+
+
+
+
+
+
+
+
