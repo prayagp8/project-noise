@@ -1,6 +1,7 @@
-# project-noise
-A front page of Noise website landing Page 
+# Project-Noise
+A front page of Noise website (landing Page)
 
 # Tech-Stack
 - HTML
 - CSS
+- JavaScript
